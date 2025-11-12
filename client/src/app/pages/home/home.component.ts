@@ -87,6 +87,8 @@ export class HomeComponent implements OnInit, OnDestroy {
     this.play();
   }
 
+  //a
+
   //render menu items
   get menuTransform() {
     return `translateX(-${(this.currentMenuIndex * 100) / this.itemsPerPage}%)`;
